@@ -1,0 +1,719 @@
+* {
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+/* header section css start */
+.navbar {
+    background: linear-gradient(45deg, #7995ab, #d3bd9c, #577288);
+    box-shadow: 0 5px 8px rgb(144 100 148 / 66%);
+}
+
+.navbar .nav-item .nav-link,
+.navbar .nav-item .nav-link.active {
+    color: white;
+    font-weight: bold;
+}
+
+/* header section css end */
+
+
+/* first section css start */
+.first-section-large-img .first-section-text {
+    position: relative;
+    top: -10em;
+    right: -33px;
+    max-width: 306px;
+}
+
+.first-section-text h4 {
+    font-weight: bold;
+    font-family: serif;
+    font-size: 20px;
+}
+
+.first-section-img {
+    margin-bottom: -20px;
+    /* margin-left: 10px;*/
+}
+
+.first-section-large-img img {
+    height: 521px;
+}
+
+.first-section-img .first-section-text {
+    font-family: serif;
+    color: #fff;
+    position: relative;
+    top: -10em;
+    right: -33px;
+    max-width: 306px;
+}
+
+.first-section-img img {
+    width: 97%;
+    height: 255px;
+}
+
+
+/* historial section css */
+
+.headings{
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.sec-heading-1 {
+    font-weight: 700;
+    color: #323232;
+    border-bottom: 3px solid;
+    padding-bottom: 5px;
+    margin-top: 20px;
+    margin-bottom: 5px;
+    border-image: linear-gradient(90deg, #FF5722, #fff, #4CAF50) 1;
+}
+
+.historical-box {
+    height: 331px;
+}
+
+.historical-box img {
+    position: relative;
+    left: -2em;
+    height: 190px;
+}
+
+.slider-text {
+    position: absolute;
+}
+
+.five-stars {
+    position: absolute;
+    /* left: 9em;
+	width: 100%; */
+    left: 7em;
+    width: 143%;
+    color: goldenrod;
+}
+
+.slider-text .fa-star {
+    position: relative;
+    left: 2em;
+}
+
+
+.five-stars p {
+    left: 2em;
+    position: absolute;
+}
+
+.slider-text h5,
+.slider-text h6 {
+    font-family: sans-serif;
+    text-transform: capitalize;
+    left: -8px;
+    position: relative;
+    color: #0606069e;
+}
+
+.slider-text .fa-indian-rupee-sign {
+    letter-spacing: 1px;
+    font-size: 14px;
+    left: 30px;
+    position: relative;
+    top: -5px;
+}
+
+.carousel-indicators [data-bs-target] {
+    position: relative;
+    top: 3em;
+    background-color: grey;
+    margin-bottom: 80px;
+}
+
+
+/* Chardham section css start */
+
+.headings{
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.sec-heading-2 {
+    font-weight: 700;
+    color: #323232;
+    border-bottom: 3px solid;
+    padding-bottom: 5px;
+    margin-top: 20px;
+    margin-bottom: 5px;
+    border-image: linear-gradient(90deg, #FF5722, #fff, #4CAF50) 1;
+}
+.chardham-yatra {
+    height: 600px;
+}
+
+.chardham_img {
+    position: absolute;
+    /* border-radius: 10px; */
+}
+
+.chardham_img h3 {
+    font-family: monospace;
+    color: oragne;
+    font-size: 22px;
+    border-radius: 63px;
+    letter-spacing: 1px;
+}
+
+
+.chardham_img img {
+    width: 100%;
+    height: 280px;
+    border-radius: 80px;
+    border: 1px solid #eeeeee70;
+}
+
+.bottom-caption {
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(0deg, black, transparent);
+    font-family: "Assistant", sans-serif;
+    z-index: 1;
+    border-radius: 10px;
+}
+
+.chardham_yatra h1 {
+    margin: 45px auto 20px;
+    font-family: Assistant;
+    font-weight: 800;
+    letter-spacing: 0.23em;
+    font-size: 2.25rem;
+    text-align: center;
+    /* text-transform: uppercase; */
+}
+
+
+/* Chardham section css end */
+
+.explore_tour{
+    margin-top: -70px;
+}
+
+.explore_tour h1 {
+    margin: 45px auto 20px;
+    font-family: Assistant;
+    font-weight: 800;
+    letter-spacing: 0.23em;
+    font-size: 2.25rem;
+    text-align: center;
+    /* text-transform: uppercase; */
+}
+
+.sec-heading-3 {
+    font-weight: 700;
+    color: #323232;
+    border-bottom: 3px solid;
+    padding-bottom: 5px;
+    margin-top: 20px;
+    margin-bottom: 5px;
+    border-image: linear-gradient(90deg, #FF5722, #fff, #4CAF50) 1;
+}
+
+
+/* Footer css start here */
+.middle-footer {
+    /* background-color: rgb(242 139 17 / 72%); */
+    background-color: #fff;
+    padding: 37px 44px;
+    color: orange;
+    font-weight: bolder;
+    font-size: 18px;
+    font-family: initial;
+}
+
+.first-footer {
+    background-color: rgb(242 139 17 / 72%) !important;
+    color: #fff !important;
+}
+
+/* about page css start */
+/* .card-text {
+    justify-content: center;
+    font-size: 18px;
+    font-weight: 400;
+    justify-content: space-between;
+}
+
+.card-group {
+    margin: 7px;
+}  */
+
+.service-first .card-text{
+    margin: 0 20px;
+    text-align: justify;
+}
+
+/*Contact CSS start */
+.page-cover {
+    text-align: center;
+    padding-top: 270px;
+    padding-bottom: 95px;
+    color: white;
+    background: linear-gradient(rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.55)), url(https://www.hoteltouristdeluxe.com/images/Banners/Contact-Banner.jpg)0% 74%;
+    background-size: cover;
+
+}
+
+.page-cover h1 {
+    font-size: 40px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-bottom: 15px;
+}
+
+.list-inline {
+    padding-left: 0;
+    margin-left: -5px;
+    list-style: none;
+    font-size: 25px;
+}
+
+.list-inline li strong {
+    font-weight: 700;
+    font-size: 17px;
+}
+
+.list-inline li {
+    display: inline-block;
+    padding-right: 5px;
+    padding-left: 5px;
+    font-family: 'Lato', sans-serif;
+}
+
+.contact-form {
+    background-color: #3A1F04;
+    color: #fff;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    position: relative;
+    top: 0px;
+
+}
+
+.leave {
+    font-family: 'Lato', sans-serif;
+    font-weight: 500;
+    margin-left: -207px;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-group textarea {
+    margin: 0 -10px;
+    width: 104%;
+    height: 219px;
+    padding-top: 16px;
+}
+
+.form textarea {
+    font-size: 14px;
+    margin-bottom: 30px;
+    padding-left: 20px;
+}
+
+.form-control {
+    border-radius: 7px;
+    box-shadow: none;
+    background: #f3f4f4;
+    border-color: #e6e7e8;
+    height: 53px;
+    font-size: 14px;
+    margin-bottom: 30px;
+    padding-left: 20px;
+    display: block;
+    width: 100%;
+}
+
+.slide-left-vis {
+    float: left;
+}
+
+.btn {
+    width: 218px;
+    padding: 12px 0px;
+    margin-top: 30px;
+    background: #fff;
+    color: #3a1f04;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+/* Services css start */
+ 
+/* why choose us css */
+.chooseus {
+    padding-top: 30px;
+}
+
+.heading-1 {
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.sub-heading-1 {
+    font-weight: 700;
+    color: #323232;
+    border-bottom: 3px solid;
+    padding-bottom: 5px;
+    margin-top: 20px;
+    margin-bottom: 5px;
+    border-image: linear-gradient(90deg, #FF5722, #fff, #4CAF50) 1;
+}
+
+.why-main {
+    margin-left: 66px;
+    padding-top: 35px;
+}
+/* transport css */
+.transport {
+    padding-top: 40px;
+}
+
+.site-main {
+    padding-top: 35px;
+}
+
+.heading-2 {
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.sub-heading-2 {
+    font-weight: 700;
+    color: #323232;
+    border-bottom: 3px solid;
+    padding-bottom: 5px;
+    margin-top: 20px;
+    margin-bottom: 5px;
+    border-image: linear-gradient(90deg, #FF5722, #fff, #4CAF50) 1;
+
+}
+
+.item-tour {
+    padding: 0 15px;
+    list-style: none;
+}
+
+.item_border {
+    border: 1px solid #e8e8e8;
+    margin-bottom: 30px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, .09);
+    background: #fff;
+    overflow: hidden;
+}
+
+.post_images {
+    background: #d8d8d8;
+    min-height: 125px;
+    position: relative;
+    margin: -1px;
+}
+
+.tour-box {
+    height: 220px;
+    width: 100%;
+}
+
+.tour-img {
+    background-size: cover !important;
+    width: 100%;
+    display: block;
+    transition: .3s;
+    will-change: transform;
+}
+.tour-img img{
+    height: 169px;
+    width: 100%;
+}
+
+.post_images span img,
+.tour-box {
+    height: 220px;
+    width: 100%;
+}
+
+.tour-head {
+    /* position: absolute;
+    z-index: 99;
+    bottom: 0; */
+    background-color: rgb(0 0 0 / 82%);
+    width: 100%;
+    margin: 0;
+    height: 55px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.tour-head span {
+    padding: 5px 10px;
+    display: -webkit-box;
+    width: 100%;
+    font-size: 14px;
+    overflow: hidden;
+    /* -webkit-line-clamp: 3; */
+    color: #fff;
+}
+
+.img-shd {
+    width: 100%;
+    height: 25px !important;
+    margin-top: -1px;
+    pointer-events: none;
+}
+
+.item-product .wrapper_content {
+    min-height: 100px;
+    padding: 0 10px;
+}
+
+.read-more {
+    background: #eee;
+    height: 40px;
+}
+
+.item_rating {
+    float: left;
+    width: 45%;
+    padding: 0 10px 0 15px;
+    position: relative;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+}
+
+.item_rating {
+    color: #f28b11;
+}
+
+.add_to_cart_btn {
+    background: #ff5722;
+    transition: .3s ease-in-out;
+    float: right;
+    color: #fff;
+    width: 55%;
+    text-align: center;
+    line-height: 41px;
+    padding: 0 0 0 20px;
+    position: relative;
+    font-weight: 700;
+    font-size: 14px;
+    margin-right: -1px;
+    margin-bottom: -1px;
+    border-radius: 0;
+    text-transform: uppercase;
+}
+
+/* Packages CSS start */
+
+.chardham-packages{
+    margin-bottom: 119px;
+}
+.char-package{
+    font-size: 24px;
+    font-weight: 600;
+}
+.char-package span{
+    font-weight: 700;
+    color: #323232;
+    border-bottom: 3px solid;
+    padding-bottom: 5px;
+    margin-top: 20px;
+    margin-bottom: 5px;
+    border-image: linear-gradient(90deg, #FF5722, #fff, #4CAF50) 1;
+}
+
+.chardham-packages .card img{
+    height: 186px;
+}
+.card-body .char-price {
+    font-size: 20px;
+    font-weight: 500;
+    background: #f6900b;
+    display: table;
+    padding: 2px 13px;
+    border-radius: 27px;
+    color: #fff;
+
+}
+.card-body h4{
+    margin: 5px 0 0 0;
+    font-size: 1rem;
+}
+.card-body .request-price{
+    font-size: 1rem;
+    font-weight: 300;
+    background: #f6900b;
+    display: table;
+    padding: 2px 13px;
+    border-radius: 27px;
+    color: #fff;
+}
+.Historical-packages{
+    margin-bottom: 119px;
+}
+.hist-package{  
+font-size: 24px;
+    font-weight: 600;
+}
+.hist-package span{
+    font-weight: 700;
+    color: #323232;
+    border-bottom: 3px solid;
+    padding-bottom: 5px;
+    margin-top: 20px;
+    margin-bottom: 5px;
+    border-image: linear-gradient(90deg, #FF5722, #fff, #4CAF50) 1;
+}
+
+.his-info h4{
+    font-size: 17px;
+    font-family: monospace;
+    margin: 18px 70px 0 0;
+}
+.his-info p{
+    font-size: smaller;
+    margin: 6px 59px 0 0;
+}
+.his-days{
+    font-size: 16px;
+    margin: 14px 0 0 16px;
+    font-family: monospace;
+}
+/* chardham yatra */
+.page-header{
+    background: url(../image/carousel-3.avif);
+    height: 430px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.booking{
+    position: relative;
+    top: -108px;
+    z-index: 1;
+}
+.custom-select{
+    background: #fff url(../image/icon.svg) no-repeat right 0.75rem center/8px 10px;
+    border: 1px solid #ced4da;
+    width: 100%;
+    border-radius: 0;
+    color: #495057;
+    font-weight: 400;
+    line-height: 1.5;
+    display: inline-block;
+    appearance: none;
+}
+.hb{
+    height: 47px;
+    border-radius: 0;
+}
+.btn-block{
+    height: 47px;
+    margin-top: -2px;
+    display: block;
+    width: 100%;
+    border-radius: 0;
+}
+.custom-text{
+    margin-left: -119px;
+    padding: 25px;
+    margin-top: 160px;
+    margin-bottom: 150px;
+}
+.text{
+    text-transform: uppercase;
+    font-family: 'prague';
+    letter-spacing: 1px;
+    font-size: 36px;
+}
+.btn-square{
+    border-radius: 0;
+    margin-right: 10px
+}
+@media (max-width:768px){
+    .custom-text{
+        margin-left: 0 !important;
+        margin-top: 35px !important;
+        margin-bottom: 35px !important;
+    }
+}
+.package-item{
+    transition: 0.3s;
+}   
+.image-fluid{
+    width: 100%;
+    height: 280px;
+}
+.mr-2{
+    margin-right: 0.5rem !important;
+}
+.color{
+    color: black;
+    padding-bottom: 1rem;
+    font-weight: 700;
+}
+.pl{
+    padding-left: 78px;
+}
+.py{
+    padding-right: 60px;
+}
+.navbar-nav li{
+    padding:0 10px;
+}
+.nav-link:hover{
+    color:#0d6efd;
+}
+@media (max-width: 768px){
+    .pl{
+        padding-left: 18px !important;
+    }
+    .py{
+        padding-right: 0 !important;
+    }
+    .booking{
+        position: relative;
+        top: -4px;
+    }
+    .container{
+        margin-bottom: 10px !important;
+    }
+    .col-md-6 p{
+        text-align: center;
+    }
+}
+a{
+    text-decoration: none;
+}
+.bold{
+    font-weight: bold;
+}
+.mr{
+    margin-right: 8px;
+}
+@media (max-width: 768px){
+    .page-header{
+        width: 99% !important;
+        height: 296px !important;
+    }
+}
